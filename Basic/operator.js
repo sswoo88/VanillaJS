@@ -100,6 +100,7 @@ console.log('' == false);
 console.log('' === false);
 console.log(null == undefined);
 console.log(null === undefined);
+console.log(null === undefined);
 
 // 8. Conditional operators: if
 // if, else if, else
