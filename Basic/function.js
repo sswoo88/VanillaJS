@@ -148,3 +148,7 @@ const simpleMultiply = (a, b) => {
 (function hello() {
   console.log('IIFE');
 })();
+
+// Fun quiz time
+// function calculate(command, a, b)
+// command: add, substract, divide, multiply, remainder
