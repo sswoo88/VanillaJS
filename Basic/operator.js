@@ -1,6 +1,6 @@
 // 1. String concatenation
-console.log("my" + " cat");
-console.log("1" + 2);
+console.log('my' + ' cat');
+console.log('1' + 2);
 console.log(`string literals: 1 + 2 = ${1 + 2}`);
 console.log("Shin's \nbook");
 
@@ -65,12 +65,10 @@ console.log(`and: ${value1 && value2 && check()}`);
 function check() {
   for (let i = 0; i < 10; i++) {
     //wasting time
-    console.log("A");
+    console.log('A');
   }
   return true;
 }
-<<<<<<< HEAD
-=======
 
 // ! (not)
 console.log(!value1);
@@ -107,11 +105,11 @@ console.log(null === undefined);
 // 8. Conditional operators: if
 // if, else if, else
 const name = 'shin';
-if (name === 'shin'){
+if (name === 'shin') {
   console.log('Welcome, Shin');
-} else if (name === 'coder'){
+} else if (name === 'coder') {
   console.log('You are amazing coder');
-} else{
+} else {
   console.log('unknown');
 }
 
@@ -141,7 +139,7 @@ switch (browser) {
 // while loop, while the condition is truthy,
 // body code is executed.
 let i = 3;
-while (i > 0){
+while (i > 0) {
   console.log(`while: ${i}`);
   i--;
 }
@@ -173,19 +171,17 @@ for (let i = 0; i < 10; i++) {
 // break, continue
 // Q1. iterate from 0 to 10 and print only even numbers(use continue)
 
-for (let i =0; i < 11; i++) {
-  if ((i % 2) == 0) {
+for (let i = 0; i < 11; i++) {
+  if (i % 2 == 0) {
     console.log(`i: ${i}`);
   }
 }
 
 // Q2. iterate from 0 to 10 and print numbers until reaching 8 (use break)
 
-for (let i =0; i < 11; i++) {
+for (let i = 0; i < 11; i++) {
   console.log(`i: ${i}`);
-  if ( i == 8 ){
+  if (i == 8) {
     break;
   }
 }
-
->>>>>>> fe64e769849a1c1b72e319f4e4fdaa6f53ee141d
