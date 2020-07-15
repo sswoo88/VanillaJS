@@ -152,3 +152,33 @@ const simpleMultiply = (a, b) => {
 // Fun quiz time
 // function calculate(command, a, b)
 // command: add, substract, divide, multiply, remainder
+
+function calculate(command, a, b) {
+  switch (command){
+    case 'add':
+      console.log(a + b);
+      break;
+    case 'substract':
+      console.log(a - b);
+      break;
+    case 'divide':
+      console.log(a / b);
+      break;
+    case 'multiply':
+      console.log(a * b);
+      break;
+    case 'remainder':
+      console.log(a % b);
+      break;
+    default:
+      console.log('not included command!');
+      break;
+
+  }
+}
+
+calculate('add', 4, 2);
+calculate('substract', 4, 2);
+calculate('divide', 4, 2);
+calculate('multiply', 4, 2);
+calculate('remainder', 4, 2);
