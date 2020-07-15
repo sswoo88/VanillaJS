@@ -8,5 +8,7 @@ _This is JavaScript Basic Grammar_
 
 ```ts
 1. basic.js
-2. operator.js 
+2. operator.js
+3. function.js
+4. class.js
 ```
