@@ -154,7 +154,7 @@ const simpleMultiply = (a, b) => {
 // command: add, substract, divide, multiply, remainder
 
 function calculate(command, a, b) {
-  switch (command){
+  switch (command) {
     case 'add':
       console.log(a + b);
       break;
@@ -171,9 +171,8 @@ function calculate(command, a, b) {
       console.log(a % b);
       break;
     default:
-      console.log('not included command!');
+      throw Error('not included command!');
       break;
-
   }
 }
 
