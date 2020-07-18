@@ -117,8 +117,8 @@ triangle.draw();
 console.log(triangle.getArea());
 
 // 6. Class checking: InstanceOf
-console.log(rectangle instanceof Rectangle);
-console.log(triangle instanceof Rectangle);
-console.log(triangle instanceof Triangle);
-console.log(triangle instanceof Shape);
-console.log(triangle instanceof Object);
+console.log(rectangle instanceof Rectangle); // true
+console.log(triangle instanceof Rectangle); // false
+console.log(triangle instanceof Triangle); // true
+console.log(triangle instanceof Shape); // true
+console.log(triangle instanceof Object); // true
